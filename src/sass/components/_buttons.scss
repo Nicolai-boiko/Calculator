@@ -1,0 +1,52 @@
+.button {
+  width: 83px;
+  height: 51px;
+  margin: 21px 15px 0 0;
+
+  background: #d8d8d8;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gr16 {
+  width: 83px;
+  height: 123px;
+}
+
+.gr18 {
+  width: 181px;
+  height: 51px;
+}
+
+.button_hover_green:hover {
+  background: rgb(34, 230, 16);
+  @extend %transition;
+}
+
+.button_hover_red:hover {
+  background: rgb(107, 5, 5);
+  color: white;
+  @extend %transition;
+}
+
+.button_hover_yellow:hover {
+  background: rgb(235, 159, 37);
+  @extend %transition;
+}
+
+.button_hover_ionic:hover {
+  background: rgb(61, 193, 255);
+  @extend %transition;
+}
+
+.button_hover_orange:hover {
+  background: rgb(224, 101, 0);
+  @extend %transition;
+}
