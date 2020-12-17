@@ -1,0 +1,12 @@
+$bg_color_buttons: #d8d8d8;
+$bg_color_display: #9d9d9d;
+$border_color: #cecece;
+$body_color: #181313;
+
+* {
+  box-sizing: border-box;
+}
+
+%transition {
+  transition: all 0.2s ease-in-out;
+}

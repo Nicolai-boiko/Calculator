@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+.button_hover_orange:hover, .button_hover_ionic:hover, .button_hover_yellow:hover, .button_hover_red:hover, .button_hover_green:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.display_input {
+  width: 377px;
+  height: 64px;
+  background: #9d9d9d;
+  border: 0.5px solid #cecece;
+  border-radius: 20px;
+  font-family: Electrolize;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 31px;
+  color: white;
+  padding: 15px;
+  text-align: right;
+  letter-spacing: -2.65px;
+}
+
+.cacl_body {
+  background-color: #181313;
+  border-radius: 20px;
+  width: 427px;
+  height: 474px;
+  margin: 100px auto;
+  padding: 25px 10px 25px 25px;
+}
+
+/*.display_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+.display_wrapper {
+  display: grid;
+  grid-template-areas: "display display display display" "f1 f2 f3 f4" "f5 f6 f7 f8" "f9 f10 f11 f12" "f13 f14 f15 f16" "f18 f18 f17 f16";
+}
+
+.gr1 {
+  grid-area: display;
+}
+
+.gr19 {
+  grid-area: f1;
+}
+
+.gr2 {
+  grid-area: f2;
+}
+
+.gr3 {
+  grid-area: f3;
+}
+
+.gr4 {
+  grid-area: f4;
+}
+
+.gr5 {
+  grid-area: f5;
+}
+
+.gr6 {
+  grid-area: f6;
+}
+
+.gr7 {
+  grid-area: f7;
+}
+
+.gr8 {
+  grid-area: f8;
+}
+
+.gr9 {
+  grid-area: f9;
+}
+
+.gr10 {
+  grid-area: f10;
+}
+
+.gr11 {
+  grid-area: f11;
+}
+
+.gr12 {
+  grid-area: f12;
+}
+
+.gr13 {
+  grid-area: f13;
+}
+
+.gr14 {
+  grid-area: f14;
+}
+
+.gr15 {
+  grid-area: f15;
+}
+
+.gr16 {
+  grid-area: f16;
+}
+
+.gr17 {
+  grid-area: f17;
+}
+
+.gr18 {
+  grid-area: f18;
+}
+
+.button {
+  width: 83px;
+  height: 51px;
+  margin: 21px 15px 0 0;
+  background: #d8d8d8;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gr16 {
+  width: 83px;
+  height: 123px;
+}
+
+.gr18 {
+  width: 181px;
+  height: 51px;
+}
+
+.button_hover_green:hover {
+  background: #22e610;
+}
+
+.button_hover_red:hover {
+  background: #6b0505;
+  color: white;
+}
+
+.button_hover_yellow:hover {
+  background: #eb9f25;
+}
+
+.button_hover_ionic:hover {
+  background: #3dc1ff;
+}
+
+.button_hover_orange:hover {
+  background: #e06500;
+}
+
+/*# sourceMappingURL=style.css.map */
